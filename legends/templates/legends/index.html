@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toponomic Legends</title>
+</head>
+<body>
+    <h1>Toponomic Legends</h1>
+    <ul>
+        {% for legend in legends %}
+            <li><a href="{% url 'legend_detail' legend.id %}">{{ legend.title }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
