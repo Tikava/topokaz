@@ -1,0 +1,24 @@
+{
+  "name": "topokaz",
+  "version": "1.0.0",
+  "description": "Web source for toponomic legends",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./static/src/input.css -o ./static/src/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tikava/topokaz.git"
+  },
+  "author": "Tikava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tikava/topokaz/issues"
+  },
+  "homepage": "https://github.com/Tikava/topokaz#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
